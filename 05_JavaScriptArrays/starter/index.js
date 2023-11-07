@@ -1,1 +1,1 @@
-let Array = quote ("I", "am", "your","Friend");
+let quote = ["I", "am", "your", "friend"];
