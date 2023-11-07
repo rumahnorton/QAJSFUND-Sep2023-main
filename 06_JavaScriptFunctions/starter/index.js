@@ -12,4 +12,20 @@ const movies = [
 
 // Part 1 - Create a function to find a movie and output it's detail
 
-// Part 2 = Create a function to return a movie object
+// 5. Create findMovie
+function findMovie(movieTitle) {
+// 6. - for...of
+  for (let movie of movies) {
+// Instruction 6-a-i - check title
+    if (movie.title === movieTitle) {
+      console.log(
+        `${movie.title} is a film directed by ${movie.director} released in ${
+          movie.year
+        }`
+      );
+    }
+// Instruction 6-a-ii - log movie
+    console.log(movie);
+  }};
+
+///Part 2 = Create a function to return a movie object
