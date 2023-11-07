@@ -27,3 +27,12 @@ if (lukeIsHere) {
     quote[lukeIsAt] = "No";}
 
     console.log(quote);
+
+    quote.pop("friend");
+    console.log(quote);
+
+    quote.pop();
+    console.log(quote);
+
+    quote.push("father");
+    console.log(quote);
